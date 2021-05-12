@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(10,12,27);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.card{
+    background-color: white;
+    height: fit-content;
+    width: 50%;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+.card hr{
+    margin: 10px auto;
+    width: 90%;
+}
+
+.card-header{
+    text-align: center;
+}
+
+.card-body{
+    padding: 10px 10px;
+}
+
+.card-body p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-body .input-div{
+    padding: 10px 20px;
+}
+
+.card-body .input-div input{
+    border: 0;
+    background-color: rgba(0, 0, 0,0.1);
+    height: 40px;
+    border-radius: 5px;
+    text-indent: 10px;
+    width: 100%;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.card-body .input-div label{
+    font-size: 24px;
+}
+
+.btn-submit{
+    padding: 10px 40px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    color:white;
+    background-color: rgb(10,12,27);
+    border-radius: 5px;
+}
+
+.btn-submit:hover{
+    background-color: rgba(10,12,27,0.5);
+    color: black;
+    font-weight: bold;
+}
+
+.result-div{
+    height: fit-content;
+    background-color:  rgba(10,12,27,0.2);
+    margin: 10px 20px;
+    padding: 10px 0px;
+    color: black;
+    border-radius: 5px;
+    border: 3px solid rgba(0, 169, 20, 0.5);
+    cursor: pointer;
+}
+
+.result-div p{
+    font-weight: normal !important;
+}
